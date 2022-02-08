@@ -1,0 +1,24 @@
+header{
+    background-color:rgb(0, 255, 255) ;
+}
+nav{
+    background-color: rgb(19, 115, 128);
+}
+section{
+    float:left;
+    width: 70%;
+    background-color: rgba(13, 106, 245, 0.938);
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color: rgb(106, 18, 248);
+}
+footer{
+    background-color: rgb(22, 35, 214);
+}
+.contenedor::after{
+    content: none;
+    display: block;
+    clear: both;
+}
